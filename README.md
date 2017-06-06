@@ -9,5 +9,5 @@ wiki of "txtCell": https://github.com/YujiSODE/txtCell/wiki
 ______
 
 ### Scripts
-- `fluidJS.js`: Web Worker interfaces for Cellular Automaton.
+- `fluidJS.js`: Web Worker interfaces for Fluid simulation with "txtCell".
 
