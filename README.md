@@ -1,5 +1,5 @@
 # fluidJS
-This is Web Worker interface for Cellular Automaton. Fluid simulation interface for "txtCell".  
+This is Web Worker interface for Cellular Automaton. Fluid simulation interface for "[txtCell](https://github.com/YujiSODE/txtCell)".  
 https://github.com/YujiSODE/fluidJS  
 wiki of "txtCell": https://github.com/YujiSODE/txtCell/wiki
 
@@ -9,3 +9,5 @@ wiki of "txtCell": https://github.com/YujiSODE/txtCell/wiki
 ______
 
 ### Scripts
+- `fluidJS.js`: Web Worker interfaces for Cellular Automaton.
+
