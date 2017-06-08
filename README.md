@@ -19,15 +19,16 @@ Simulated fluid flows into cells where is relatively low in height.
 ### Rule of "Fluid simulation"
 
 
-*C*<sub>0<sub>*t*=*t*0+1</sub></sub>=*C*<sub>0<sub>*t*=*t*0</sub></sub>+*p*\*∑\(*dC*+*Ex*\); *C*<sub>0<sub>*t*=*t*0+1</sub></sub>≃*γ*0, while *p*=1\/8=0.125.  
- - *γ*0=*C*<sub>0<sub>*t*=*t*0+1</sub></sub> and *Ex*=0, when *C*<sub>0<sub>*t*=*t*0+1</sub></sub>=\[0,9\]  
- - *γ*0=0 and *Ex*=0, when *C*<sub>0<sub>*t*=*t*0+1</sub></sub>\<0  
- - *γ*0=9 and *Ex*=*C*<sub>0<sub>*t*=*t*0+1</sub></sub>-9, when *C*<sub>0<sub>*t*=*t*0+1</sub></sub>\>9  
----  
-dH: height difference; dH = Hi-H0.  
-2-1) dCi = (Ci>0)?+1:0; when dH > 0  
-2-2) dCi = (C0>0)?-1:0; when dH < 0  
-2-3) when dH = 0,  
-  2-3-1) dCi = +1 when Ci-C0 > 0  
-  2-3-2) dCi = -1 when Ci-C0 < 0  
-  2-3-3) dCi = 0 when Ci-C0 = 0  
+*C*<sub>0<sub>*t* = *t*0+1</sub></sub> = *C*<sub>0<sub>*t* = *t*0</sub></sub>+*p*\*∑\(*dC*+*Ex*\); *C*<sub>0<sub>*t* = *t*0+1</sub></sub> ≃ *γ*0, while *p* = 1\/8 = 0.125.  
+ - *γ*0 = *C*<sub>0<sub>*t* = *t*0+1</sub></sub> and *Ex* = 0, when *C*<sub>0<sub>*t* = *t*0+1</sub></sub> = \[0,9\]  
+ - *γ*0 = 0 and *Ex* = 0, when *C*<sub>0<sub>*t* = *t*0+1</sub></sub>\ < 0  
+ - *γ*0 = 9 and *Ex* = *C*<sub>0<sub>*t* = *t*0+1</sub></sub>-9, when *C*<sub>0<sub>*t* = *t*0+1</sub></sub>\>9
+ 
+*dH*: height difference; *dH* = *H<sub>i</sub>* - *H*<sub>0</sub>.  
+ - *dC<sub>i</sub>* = *C<sub>i</sub>* \> 0\?+1:0; when *dH* \> 0  
+ - *dC<sub>i</sub>* = *C*<sub>0</sub> \> 0\?-1:0; when *dH* \< 0  
+ - when *dH* = 0,
+   - *dC<sub>i</sub>* = +1 when *C<sub>i</sub>* - *C*<sub>0</sub> \> 0  
+   - *dC<sub>i</sub>* = -1 when *C<sub>i</sub>* - *C*<sub>0</sub> \< 0  
+   - *dC<sub>i</sub>* = 0 when *C<sub>i</sub>* - *C*<sub>0</sub> = 0
+
