@@ -18,7 +18,7 @@
 * ---
 * 1-1) γ0 = C0(t=t0+1) and Ex = 0, when C0(t = t0+1) = [0,9]
 * 1-2) γ0 = 0 and Ex = 0, when C0(t = t0+1) < 0
-* 1-3) γ0 = 9 and Ex = C0(t=t0+1)-9, when C0(t = t0+1) < 0
+* 1-3) γ0 = 9 and Ex = C0(t=t0+1)-9, when C0(t = t0+1) > 9
 * ---
 * dH: height difference; dH = Hi-H0.
 * 2-1) dCi = (Ci>0)?+1:0; when dH > 0
