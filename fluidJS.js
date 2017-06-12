@@ -69,7 +69,6 @@ slf.addEventListener('message',function(e){
       c.c7=(Y!=H-1)?+d1[Y+1][X]:0;
       c.c8=(Y!=H-1&&X!=W-1)?+d1[Y+1][X+1]:0;
         //=== fluid simulation ===
-      //!! :::::deltaH=0:::::
       i=1,s=0,dH=0;
       //sum of c
       if(!d2){
